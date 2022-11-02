@@ -16,7 +16,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2 //声明启动Swagger2
 @EnableWebMvc //声明启动mvc
 public class SwaggerConfig{
-    //99
+    //9911
     @Bean
     public Docket customDocket() {
         return new Docket(DocumentationType.SWAGGER_2)
